@@ -1,0 +1,23 @@
+* {
+    font-family: 'Roboto', Arial;
+    box-sizing: border-box;
+    color: mat-gra;
+}
+
+body {
+    background-color: rgb(200, 220, 231);
+    padding: 14rem, 14em, 14em, 20em;
+}
+
+.circle {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(160, 59, 255);
+    border-radius: 50%;
+}
+
+
+
