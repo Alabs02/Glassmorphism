@@ -1,22 +1,58 @@
 * {
     font-family: 'Roboto', Arial;
     box-sizing: border-box;
-    color: mat-gra;
+    color: #212121;
+    padding: 0;
+    margin: 0;
+
 }
 
 body {
     background-color: rgb(200, 220, 231);
-    padding: 14rem, 14em, 14em, 20em;
+    overflow:  hidden !important;
 }
 
-.circle {
+.main__content {
+    padding: 14em 14em 14em 20em;
+}
+
+.abstract {
     position: absolute;
-    top: 200px;
-    left: 200px;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(160, 59, 255);
-    border-radius: 50%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -2;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+
+    background: rgba($color: rgb(255, 255, 255), $alpha: 0.2);
+    border-radius: 3em;
+    padding: 3em;
+    z-index: 1;
+
+    backdrop-filter: blur(40px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba($color: rgb(46, 54, 68), $alpha: 0.03);
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .seq {
+        padding-top: 0.5rem;
+    }
+
+}
+
+h1 {
+    font-size: 4em;
+    clip-path: inset(0, 0, 0, 0);
+    margin: 3rem 0;
+    color: rgb(2, 2, 29);
 }
 
 
